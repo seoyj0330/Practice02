@@ -6,13 +6,16 @@ public class Problem03 {
 
 		char c[] = { 'T', 'h', 'i', 's', ' ', 'i', 's', ' ', 'a', ' ', 'p', 'e', 'n', 'c', 'i', 'l' };
 
+		System.out.println(c);
+		
 		for (int i = 0; i < c.length; i++) {
 			if (c[i] == ' ') {
 				c[i] = ',';
 			}
+			System.out.print(c[i]);
 		}
-		System.out.println(c);
+		
 
 	}
-	// ''를 ,로 바꾸었으면 음 원래꺼는 어떻게 뽑지....
+	
 }
